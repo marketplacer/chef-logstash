@@ -23,4 +23,5 @@ default['logstash']['server']['filters'] = []
 default['logstash']['server']['outputs'] = []
 
 default['logstash']['server']['logrotate']['options'] = [ 'missingok', 'notifempty', 'compress', 'copytruncate' ]
-  
+
+default['logstash']['server']['config_path'] = "$LOGSTASH_HOME/etc/logstash.conf"
